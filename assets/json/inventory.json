@@ -1,0 +1,51 @@
+[
+  {
+    "id": "inv-001",
+    "inspection_id": "inspection-001",
+    "item_name": "Kitchen worktop",
+    "room": "Kitchen",
+    "condition": "fair",
+    "notes": "Deep scratch near sink — not present at check-in.",
+    "photo_ids": ["photo-001"],
+    "replacement_cost": 320.0
+  },
+  {
+    "id": "inv-002",
+    "inspection_id": "inspection-001",
+    "item_name": "Bathroom wall tile",
+    "room": "Bathroom",
+    "condition": "damaged",
+    "notes": "Single cracked tile behind door.",
+    "photo_ids": ["photo-002"],
+    "replacement_cost": 45.0
+  },
+  {
+    "id": "inv-003",
+    "inspection_id": "inspection-001",
+    "item_name": "Living room wall paint",
+    "room": "Living Room",
+    "condition": "fair",
+    "notes": "Multiple scuff marks above sofa height.",
+    "photo_ids": ["photo-003"],
+    "replacement_cost": 180.0
+  },
+  {
+    "id": "inv-004",
+    "inspection_id": "inspection-001",
+    "item_name": "Bedroom carpet",
+    "room": "Bedroom",
+    "condition": "poor",
+    "notes": "Persistent stain requiring professional clean or replacement.",
+    "photo_ids": ["photo-004"],
+    "replacement_cost": 275.0
+  },
+  {
+    "id": "inv-005",
+    "inspection_id": "inspection-002",
+    "item_name": "Front door",
+    "room": "Entrance",
+    "condition": "good",
+    "notes": "Baseline check-in condition.",
+    "photo_ids": ["photo-005"]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "booking-001",
+    "property_address": "14 Maple Court, Bristol BS1 4QT",
+    "tenant_name": "Alex Morgan",
+    "check_in_date": "2026-01-05T00:00:00.000Z",
+    "check_out_date": "2026-07-31T00:00:00.000Z",
+    "unit_number": "Flat 2B",
+    "landlord_name": "Harbour Lettings Ltd"
+  },
+  {
+    "id": "booking-002",
+    "property_address": "88 River Walk, Manchester M3 4FN",
+    "tenant_name": "Jordan Lee",
+    "check_in_date": "2025-09-01T00:00:00.000Z",
+    "check_out_date": "2026-08-15T00:00:00.000Z",
+    "unit_number": "Apartment 12",
+    "landlord_name": "Northern Homes Group"
+  }
+]

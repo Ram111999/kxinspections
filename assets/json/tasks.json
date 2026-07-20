@@ -1,0 +1,46 @@
+[
+  {
+    "id": "task-001",
+    "inspection_id": "inspection-001",
+    "title": "Document kitchen worktop damage",
+    "description": "Measure and photograph scratch on laminate worktop.",
+    "room": "Kitchen",
+    "status": "completed",
+    "priority": "high",
+    "photo_ids": ["photo-001"],
+    "due_date": "2026-06-12T12:00:00.000Z"
+  },
+  {
+    "id": "task-002",
+    "inspection_id": "inspection-001",
+    "title": "Assess bathroom tile crack",
+    "description": "Confirm whether crack is tenant-caused or pre-existing.",
+    "room": "Bathroom",
+    "status": "completed",
+    "priority": "medium",
+    "photo_ids": ["photo-002"],
+    "due_date": "2026-06-12T12:30:00.000Z"
+  },
+  {
+    "id": "task-003",
+    "inspection_id": "inspection-001",
+    "title": "Review living room wall scuffs",
+    "description": "Compare against check-in photos for fair wear assessment.",
+    "room": "Living Room",
+    "status": "completed",
+    "priority": "medium",
+    "photo_ids": ["photo-003"],
+    "due_date": "2026-06-12T13:00:00.000Z"
+  },
+  {
+    "id": "task-004",
+    "inspection_id": "inspection-003",
+    "title": "Smoke alarm battery check",
+    "description": "Test all smoke alarms and replace batteries if required.",
+    "room": "Hallway",
+    "status": "pending",
+    "priority": "high",
+    "photo_ids": [],
+    "due_date": "2026-07-20T14:00:00.000Z"
+  }
+]
