@@ -1,7 +1,7 @@
 # KxInspections Student App — Contesting Charges Technical Assessment
 
 ## Overview
-This Flutter application is built as part of a technical assessment for the KxInspections Student App. The goal of the project is to demonstrate a practical implementation of core Flutter concepts while addressing the assignment requirements.
+This Flutter application is built as part of a technical assessment for the KxInspections Student App. The goal of the project is to demonstrate a practical implementation of core Flutter concepts while addressing the assignment requirements, the coding was done using chrome and testing was done using emulator.
 
 ## Assignment Objective
 The objective of this assignment is to build a Flutter application that supports features outlined in the provided technical assessment  These include:
