@@ -13,6 +13,7 @@ class KxInspectionsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       scrollBehavior: MyScrollBehavior(),
       title: AppStrings.appTitle,
       theme: AppTheme.light,

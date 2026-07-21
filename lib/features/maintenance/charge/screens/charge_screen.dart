@@ -133,7 +133,7 @@ class _ChargeScreenState extends State<ChargeScreen> {
                       child: OutlinedButton(
                         style: OutlinedButton.styleFrom(
                           side: const BorderSide(
-                            color: AppColors.outstanding,
+                            color: AppColors.error,
                             width: 2,
                           ),
                           shape: RoundedRectangleBorder(
@@ -146,7 +146,7 @@ class _ChargeScreenState extends State<ChargeScreen> {
                         child: const Text(
                           "Contest",
                           style: TextStyle(
-                            color: Colors.black,
+                            color: AppColors.textPrimary,
                             fontWeight: FontWeight.w600,
                           ),
                         ),

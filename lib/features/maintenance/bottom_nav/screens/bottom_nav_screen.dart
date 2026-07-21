@@ -162,7 +162,7 @@ class _OpenTabContent extends StatelessWidget {
         InspectionsSection(
           records: provider.inspections,
           onTapInspection: (record) {
-            // TODO(integration): context.push('/maintenance/inspections/${record.id}');
+            context.push('/preinspection/${record.id}');
           },
         ),
         const SizedBox(height: 22),

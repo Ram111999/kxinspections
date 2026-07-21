@@ -25,11 +25,11 @@ class AppRouter {
           //   builder: (context, state) => const MaintenanceHubScreen(),
           // ),
           GoRoute(
-            path: AppRoutes.inspection,
-            name: 'inspection',
+            path: AppRoutes.preArrivalInspectionScreeninspection,
+            name: 'preinspection',
             builder: (context, state) {
               final id = state.pathParameters['id']!;
-              return InspectionScreen(inspectionId: id);
+              return PreArrivalInspectionScreen(inspectionId: id);
             },
           ),
           GoRoute(
