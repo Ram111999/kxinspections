@@ -12,7 +12,7 @@ The objective of this assignment is to build a Flutter application that supports
 - A Integration with mock data and repository patterns for modularity.
 
 
-## Flutter Environment</summary>
+## Flutter Environment
 Flutter 3.41.6 • channel stable • https://github.com/flutter/flutter.git
 Framework • revision db50e20168 (4 months ago) • 2026-03-25 16:21:00 -0700
 Engine • hash 5cdd32777948fa7a648fac915f8da7120ac7e97a (revision 425cfb54d0) (3 months ago) •
@@ -26,17 +26,36 @@ OpenJDK 64-Bit Server VM Microsoft-13106358 (build 17.0.18+8-LTS, mixed mode, sh
 
 Running test on Android Emulator terminal command:
 flutter test integration_test/maintenance_charge_flow_test.dart -d emulator-5554
+OR
+flutter test integration_test
 
+## Quick Start
+flutter pub get
+
+flutter run
 
 ## Features
 The implemented features in this project include:
 
-- **Maintenance Hub Screen** with tabs for open tasks and charge history.
-- **Charge Screen** to view the details of an outstanding charge.
-- **Contest Charge Screen** to provide a reason for contesting a charge.
-- Mock data integration using a repository pattern for tasks, charges, inventory, and inspections.
-- Navigation using `go_router`.
-- State management with `provider`.
+✔ Maintenance Hub with booking selector
+
+✔ Charge history
+
+✔ Contest charge workflow
+
+✔ View contested charges
+
+✔ Repository architecture
+
+✔ Provider state management
+
+✔ go_router navigation
+
+✔ Mock API using JSON
+
+✔ Integration testing
+
+✔ Clean modular architecture
 
 ## Videos
 - [▶ Watch Testing Demo](demo/testing_demo.mp4) 
@@ -158,8 +177,7 @@ Here is the requirement coverage based on the implementation:
 | State Management | ✅ | Provider used effectively for reactive state. |
 | Responsive Support | ⚠️ | Basic support via `Responsive` utils but not fully exercised. |
 | Unit Tests | ⚠️ | Minimal provider tests; or integration tests. |
-| Persistence | ❌ | No implementation for persistent storage (e.g., Hive or Shared Preferences). |
-| CI Configuration | ❌ | Not included. |
+
 
 ## Design Decisions
 
