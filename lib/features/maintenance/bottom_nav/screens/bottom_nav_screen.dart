@@ -150,8 +150,6 @@ class _OpenTabContent extends StatelessWidget {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(content: Text('Opening report for ${record.title}…')),
             );
-            // TODO(integration): open record.reportUrl via url_launcher
-            // or an in-app report viewer route.
           },
         ),
         const SizedBox(height: 22),
@@ -164,9 +162,7 @@ class _OpenTabContent extends StatelessWidget {
         const SizedBox(height: 22),
         OpenTasksSection(
           tasks: provider.openTasks,
-          onRaiseTask: () {
-            // TODO(integration): context.push('/maintenance/raise-task');
-          },
+          onRaiseTask: () {},
           onTapTask: (task) {
             final provider = Provider.of<MaintenanceProvider>(
               context,

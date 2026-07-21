@@ -88,29 +88,6 @@ class MaintenanceMockApi {
         ],
       },
     ];
-    // [
-    //   {
-    //     "id": "TCK58",
-
-    //     "title": "Task ID: #TCK58",
-
-    //     "category": "Cabinets",
-
-    //     "notes": "Doors are hanging off",
-
-    //     "location": "Oceanview > Apartment 2 > OVA111",
-
-    //     "date": "2024-09-01",
-
-    //     "status": "newTask",
-
-    //     "images": [
-    //       "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
-
-    //       "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=400",
-    //     ],
-    //   },
-    // ];
   }
 
   Future<List<Map<String, dynamic>>> getInventory() async {
