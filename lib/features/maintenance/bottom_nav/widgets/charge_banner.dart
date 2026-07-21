@@ -18,7 +18,6 @@ class ChargeBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final bool isAccepted = charge.isAccepted;
-    debugPrint('ChargeBanner BUILD accepted=${charge.isAccepted}');
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(

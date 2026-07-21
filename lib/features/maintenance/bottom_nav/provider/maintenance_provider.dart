@@ -50,20 +50,12 @@ class MaintenanceProvider extends ChangeNotifier {
       bookings = await _repository.fetchBookings();
       selectedBooking = bookings.isNotEmpty ? bookings.first : null;
       outstandingCharge = await _repository.fetchOutstandingCharge();
-      debugPrint(
-        "CHARGE DATA: ${outstandingCharge?.message} accepted=${outstandingCharge?.isAccepted}",
-      );
       inventory = await _repository.fetchInventory();
       inspections = await _repository.fetchInspections();
       openTasks = await _repository.fetchOpenTasks();
       chargeHistory = await _repository.fetchChargeHistory();
-      debugPrint("INSPECTIONS COUNT: ${inspections.length}");
-
-      debugPrint("INSPECTIONS DATA: $inspections");
-
       errorMessage = null;
     } catch (e) {
-      debugPrint("MAINTENANCE ERROR: $e");
       errorMessage = 'Unable to load maintenance details. Please try again.';
     } finally {
       isLoading = false;

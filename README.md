@@ -11,10 +11,8 @@ The objective of this assignment is to build a Flutter application that supports
 - A **View Contest charge** Screen shows user to view the charge received
 - A Integration with mock data and repository patterns for modularity.
 
-<details>
-<summary>Flutter Environment</summary>
 
-```text
+## Flutter Environment</summary>
 Flutter 3.41.6 • channel stable • https://github.com/flutter/flutter.git
 Framework • revision db50e20168 (4 months ago) • 2026-03-25 16:21:00 -0700
 Engine • hash 5cdd32777948fa7a648fac915f8da7120ac7e97a (revision 425cfb54d0) (3 months ago) •
@@ -28,8 +26,7 @@ OpenJDK 64-Bit Server VM Microsoft-13106358 (build 17.0.18+8-LTS, mixed mode, sh
 
 Running test on Android Emulator terminal command:
 flutter test integration_test/maintenance_charge_flow_test.dart -d emulator-5554
-```
-</details>
+
 
 ## Features
 The implemented features in this project include:

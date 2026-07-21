@@ -174,24 +174,7 @@ class _ChargeScreenState extends State<ChargeScreen> {
                             );
 
                             provider.acceptTask(int.parse(widget.index));
-
-                            debugPrint("Before pop");
-                            debugPrint(
-                              'Charge router: ${GoRouter.of(context).routerDelegate.hashCode}',
-                            );
-                            debugPrint(
-                              "Before pop canPop = ${GoRouter.of(context).canPop()}",
-                            );
-
                             context.pop();
-
-                            debugPrint(
-                              "After pop canPop = ${GoRouter.of(context).canPop()}",
-                            );
-                            debugPrint("After pop");
-                            debugPrint(
-                              'Location: ${GoRouter.of(context).routeInformationProvider.value.uri}',
-                            );
                           }
                         },
                         child: const Text(

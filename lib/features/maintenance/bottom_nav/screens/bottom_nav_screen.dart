@@ -43,9 +43,7 @@ class _MaintenanceHubView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<MaintenanceProvider>();
-    debugPrint(
-      'UI provider=${provider.hashCode} charge=${provider.outstandingCharge}',
-    );
+
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
@@ -116,8 +114,6 @@ class _MaintenanceHubView extends StatelessWidget {
     );
 
     if (index != -1) {
-      // final task = provider.openTasks[index];
-      debugPrint('Hub router: ${GoRouter.of(context).routerDelegate.hashCode}');
       context.push('/charge/${index.toString()}');
     } else {
       SnackBar(content: Text('No Record Found For the Selection'));

@@ -22,9 +22,6 @@ void main() {
     final provider = MaintenanceProvider(
       repository: DioMaintenanceRepository(MaintenanceMockApi()),
     );
-    debugPrint(
-      'TEST provider=${provider.hashCode} charge=${provider.outstandingCharge}',
-    );
     final router = GoRouter(
       initialLocation: '/maintenance',
 
@@ -89,8 +86,6 @@ void main() {
     // -------------------------
 
     expect(find.text('Charge'), findsOneWidget);
-
-    // expect(find.text('Accept'), findsOneWidget);
 
     // -------------------------
     // Accept Charge
