@@ -29,7 +29,7 @@ OpenJDK 64-Bit Server VM Microsoft-13106358 (build 17.0.18+8-LTS, mixed mode, sh
 Running test on Android Emulator terminal command:
 flutter test integration_test/maintenance_charge_flow_test.dart -d emulator-5554
 ```
-<details>
+</details>
 
 ## Features
 The implemented features in this project include:
