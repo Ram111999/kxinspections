@@ -9,8 +9,27 @@ The objective of this assignment is to build a Flutter application that supports
 - A **Maintenance Hub** to display maintenance tasks, charges, and bookings.
 - A **Contest Charge** screen to allow users to contest a raised charge.
 - A **View Contest charge** Screen shows user to view the charge received
+- A Integration with mock data and repository patterns for modularity.
 
-- Integration with mock data and repository patterns for modularity.
+<details>
+<summary>Flutter Environment</summary>
+
+```text
+Flutter 3.41.6 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision db50e20168 (4 months ago) • 2026-03-25 16:21:00 -0700
+Engine • hash 5cdd32777948fa7a648fac915f8da7120ac7e97a (revision 425cfb54d0) (3 months ago) •
+2026-03-25 20:14:42.000Z
+Tools • Dart 3.11.4 • DevTools 2.54.2
+
+Java version OpenJDK Runtime Environment.
+openjdk 17.0.18 2026-01-20 LTS
+OpenJDK Runtime Environment Microsoft-13106358 (build 17.0.18+8-LTS)
+OpenJDK 64-Bit Server VM Microsoft-13106358 (build 17.0.18+8-LTS, mixed mode, sharing)
+
+Running test on Android Emulator terminal command:
+flutter test integration_test/maintenance_charge_flow_test.dart -d emulator-5554
+```
+<details>
 
 ## Features
 The implemented features in this project include:
@@ -21,6 +40,10 @@ The implemented features in this project include:
 - Mock data integration using a repository pattern for tasks, charges, inventory, and inspections.
 - Navigation using `go_router`.
 - State management with `provider`.
+
+## Videos
+- [▶ Watch Testing Demo](demo/testing_demo.mp4) 
+- [▶ Watch Full Working Demo](demo/full-working-demo.mp4) 
 
 ## Architecture
 The app follows a clean architecture approach emphasizing **separation of concerns** and modular design:
@@ -168,7 +191,7 @@ No persistence exists beyond mock data, as the assignment scope did not explicit
 
 ## Trade-offs
 
-- **Mock API Over Live Integration**: The decision to use static JSON fixtures simplifies the implementation but does not demonstrate live API handling.
+- **Mock API Over Live Integration**: The decision to use static JSON fixtures simplifies the implementation but does not demonstrate live API handling, can improve a lot in this area on live data.
 - **Minimal Testing**: While `provider` state changes are tested, and integration tests,.
 
 ## Future Improvements
@@ -176,7 +199,6 @@ No persistence exists beyond mock data, as the assignment scope did not explicit
 - Implement **persistent storage** (e.g., Hive or Shared Preferences) for cached data.
 - Support **responsive layouts** more comprehensively for tablet and web platforms.
 - Integrate a **live API backend** for real-world data flow.
-- Implement **error boundaries** for more robust error recovery in the UI.
 
 ## Known Limitations
 
